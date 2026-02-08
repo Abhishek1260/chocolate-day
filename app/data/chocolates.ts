@@ -3,54 +3,63 @@ export const chocolates = [
         id: 1,
         emoji: "🍫",
         title: "Dark Chocolate",
-        message: "for the days you act strong but still deserve the softest hugs"
+        message:
+            "bitter sweet intense kinda like how you look at me and suddenly my brain forgets how to function"
     },
     {
         id: 2,
         emoji: "🍓",
         title: "Strawberry",
-        message: "because you make everything sweeter without even trying"
+        message:
+            "sweet soft addictive if i had to choose between you and chocolate this wouldnt even be a debate"
     },
     {
         id: 3,
         emoji: "🍯",
         title: "Caramel",
-        message: "for our late night talks that never feel late enough"
+        message:
+            "slow melting sticks everywhere refuses to leave my thoughts basically what you do to me"
     },
     {
         id: 4,
         emoji: "🍬",
-        title: "Candy Melt",
-        message: "the way you laugh melts me faster than this ever could"
+        title: "Sugar Rush",
+        message:
+            "one smile from you and suddenly im smiling at my phone like an idiot"
     },
     {
         id: 5,
         emoji: "🍩",
         title: "Choco Drip",
-        message: "messy sweet addictive basically you"
+        message:
+            "a little messy extremely sweet and way too tempting to ignore just saying"
     },
     {
         id: 6,
         emoji: "🍪",
         title: "Choco Chip",
-        message: "small moments with you somehow feel like the best parts"
+        message:
+            "small moments with you hit harder than they should and i wouldnt change a thing"
     },
     {
         id: 7,
         emoji: "💋",
         title: "Chocolate Kiss",
-        message: "if kisses were chocolates id still owe you a lifetime supply"
+        message:
+            "if kisses had a flavor im pretty sure itd be you and id still want another"
     },
     {
         id: 8,
         emoji: "❤️",
         title: "Heart Chocolate",
-        message: "loving you from miles away still feels easy and choosing you feels natural"
+        message:
+            "i like you in a way that makes distance annoying and seeing you feel necessary"
     },
     {
         id: 9,
-        emoji: "✨",
-        title: "Final Surprise",
-        message: "i miss you in ways chocolate cant fix but loving you does"
+        emoji: "🔥",
+        title: "Final Bite",
+        message:
+            "i miss you in the quiet moments the loud ones the random ones basically all of them"
     }
 ];
