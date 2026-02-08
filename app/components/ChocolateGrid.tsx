@@ -13,7 +13,7 @@ export default function ChocolateGrid() {
     if (unlocked > chocolates.length) return <FinalScreen />;
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-[#3b1f1f] to-black text-white flex flex-col items-center px-4">
+        <div className="min-h-screen bg-gradient-to-b from-[#3b1f1f] to-black text-white flex flex-col items-center px-4 pb-4">
             <div className="w-full max-w-md mt-8">
                 <div className="text-xs mb-2 opacity-70">sweetness unlocked</div>
                 <div className="w-full bg-white/10 h-2 rounded-full">
@@ -40,7 +40,7 @@ export default function ChocolateGrid() {
                     choco={active}
                     onClose={() => setActive(null)}
                     onUnlock={() => {
-                        setUnlocked((p) => p + 1);
+                        setUnlocked((p) => active.id + 1);
                         setActive(null);
                     }}
                     isLast={active.id === chocolates.length}
